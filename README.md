@@ -7,16 +7,16 @@ The visualization of the chess game is entirely up to you. Try to be creative an
 Regardless of your choice of chess design, your game must include the following features:
 
 -   **Selection Capability**: When the user clicks on a piece, that piece should be selected (implement the selection in a way that fits your graphical theme). Then, all the piece's valid moves should be displayed on the board. For example, the lichess.org website has implemented this feature in the following manner:
-![](images/1.png)
+![](Images/1.png)
 **Checkmate Display Feature**: When the king is put in checkmate by the opposing player, this should be visually indicated in some way. You can use methods such as changing the background color to red, altering the color of the piece, or any other approach you see fit. For example:
-![](images/2.jpg)
+![](Images/2.jpg)
 -   **Test Case Input Capability**: Similar to the inputs from Phase 1, there should be a feature allowing a specific chessboard state to be input and displayed on the game board accordingly. While implementing this in the console is acceptable, including it in the graphical interface will earn bonus points. Another convenient method is inputting data through the system clipboard, as explained in the tutorials.
     
 -   **Reset Capability**: Add a **Reset** button to the graphical interface, which resets the chessboard to its initial state when pressed.
     
 -   **Advanced Selection Capability**: Enhance your selection feature by adding functionality to highlight "critical moves." When a piece is selected and its valid moves are displayed, any move that leads to a disadvantage (e.g., an imminent checkmate in the next few turns) should be visually marked with a distinct color.  
     For instance, in the first test case of Phase 1, the pawn moving to **e6** was valid, but moving to **e5** would have resulted in checkmate within two turns by the opponent. Highlight such moves distinctly (e.g., using a red circle as shown in the example below) to inform the player not to make those moves:
-![](images/3.png)
+![](Images/3.png)
     -   **Mate Highlighting**: You can use a blue circle (or any design of your choice) to indicate moves that would result in checkmate if performed. This will help players recognize winning moves.
     
 -   **Turn Indicator**: Your chess game should clearly display whose turn it is (e.g., white or black).
