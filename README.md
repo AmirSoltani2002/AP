@@ -1,6 +1,6 @@
 # The Beautiful Chess
 
-In this part of the project, we will make the chess game we created earlier graphical. For this purpose, the **SFML library** has been used, and its tutorial, along with a complete example (designing a Tic Tac Toe game), has been recorded and provided in the link above.
+In this project, we will make the chess game we created earlier graphical. For this purpose, the **SFML library** has been used, and its tutorial, along with a complete example (designing a Tic Tac Toe game), has been recorded and provided in the link above.
 
 The visualization of the chess game is entirely up to you. Try to be creative and design the chessboard in an aesthetically pleasing way. You can use any images or color combinations for the pieces or the board. The **UI** design is also your responsibility, including how it should look and how the messages displayed on the screen appear and in which frame.
 
